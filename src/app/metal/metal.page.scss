@@ -1,0 +1,31 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-content {
+  --ion-background-color: rgb(238, 174, 202);
+  --ion-background-color:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(228,178,205,1) 57%, rgba(184,194,221,1) 94%, rgba(148,208,233,1) 100%) !important;;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(26, 25, 25);
+  text-shadow: .7px .7px .7px #5a5a5a; 
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(26, 25, 25);
+  text-shadow: .7px .7px .7px #5a5a5a; 
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88); 
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}

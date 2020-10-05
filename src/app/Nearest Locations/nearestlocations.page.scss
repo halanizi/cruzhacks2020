@@ -1,0 +1,25 @@
+.map{
+  height: 50%;
+}
+
+ion-card-title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(26, 25, 25);
+  text-shadow: .7px .7px .7px #5a5a5a; 
+}
+
+ion-card-content {
+  font-size: 20px;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+ion-content {
+  --ion-background-color: rgb(238, 174, 202);
+  --ion-background-color:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(228,178,205,1) 57%, rgba(184,194,221,1) 94%, rgba(148,208,233,1) 100%) !important;;
+}

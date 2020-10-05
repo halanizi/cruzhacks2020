@@ -1,0 +1,17 @@
+p {
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#plasticDiv {
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+ion-content {
+    --ion-background-color: rgb(238, 174, 202);
+    --ion-background-color:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(228,178,205,1) 57%, rgba(184,194,221,1) 94%, rgba(148,208,233,1) 100%) !important;;
+}

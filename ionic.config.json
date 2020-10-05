@@ -1,0 +1,7 @@
+{
+  "name": "cruzHacks2020",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

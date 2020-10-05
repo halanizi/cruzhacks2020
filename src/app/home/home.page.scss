@@ -1,0 +1,111 @@
+.welcome-card img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+   
+ion-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-content {
+    --ion-background-color: rgb(238, 174, 202);
+    --ion-background-color:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(228,178,205,1) 57%, rgba(184,194,221,1) 94%, rgba(148,208,233,1) 100%) !important;;
+}
+
+ion-card-content{
+    font-size: 16px;
+    text-align: center;
+}
+// BUTTON GROUPING //
+.btn-group button {   
+    float: left; /* Float the buttons side by side */
+    background: linear-gradient(to bottom, #4287F5 100%, #4287F5 100%);
+    background-color: #4287F5;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Impact;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+   
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+   
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+   
+/* Add a background color on hover */
+.btn-group button:hover {
+    background: linear-gradient(to bottom, #4287F5 100%, #4287F5 100%);
+    background-color: #4287F5;
+}
+   
+.glassBut{
+    background-color: transparent;
+}
+   
+.cardboard{
+    float: left;
+    vertical-align: text-bottom;
+}
+   
+.picButt{
+    float: left;
+    margin-bottom: 25px;
+}
+   
+#plasticRow {
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+   
+.textButt{
+    float: right;
+    display: inline-block;
+    width: 160px !important;
+    height: 50px !important;
+    padding: 0px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: "secondary";
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    :hover {
+      border-radius: 15px;
+      background-color: "secondary";
+    }
+    :active {
+      background-color: "secondary";
+      border-radius: 15px;
+      box-shadow: 0 5px #666;
+      transform: translateY(8px);
+    }
+}
+   
+ion-button {
+    width: 120px !important;
+    height: 80px !important;
+    overflow: hidden;
+}
+  
+img.resize {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;;
+}
+  

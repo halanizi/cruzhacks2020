@@ -1,0 +1,163 @@
+#header {
+    background-color: #66CCFF;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px; 
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px; 
+    border-radius: 15px;  
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#row1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.rowDesign1 {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 4px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    :hover {
+        border-radius: 15px;
+        background-color: #3e8e41
+    }
+
+    :active {
+        background-color: #3e8e41;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        transform: translateY(8px);
+    }
+}
+
+
+#row2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.rowDesign2 {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 4px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    :hover {
+        border-radius: 15px;
+        background-color: #3e8e41
+    }
+
+    :active {
+        background-color: #3e8e41;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        transform: translateY(8px);
+    }
+}
+
+#row3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.rowDesign3 {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 4px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    :hover {
+        border-radius: 15px;
+        background-color: #3e8e41
+    }
+
+    :active {
+        background-color: #3e8e41;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        transform: translateY(8px);
+    }
+}
+
+ion-button {
+    width: 100px !important;
+    height: 100px !important;
+    overflow: hidden;
+}
+
+ion-content {
+    --ion-background-color: rgb(238, 174, 202);
+    --ion-background-color:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(228,178,205,1) 57%, rgba(184,194,221,1) 94%, rgba(148,208,233,1) 100%) !important;;
+}
+
+img.resize {
+    width: 80px;
+    height: 80px;
+}
+
+#homeDiv {
+    text-align: center;
+}
+
+.homeButton {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: Impact;
+    background-color: #41CAC6;
+    border: none;
+    padding: 20px 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+
+    :hover {
+        border-radius: 15px;
+        background-color: #41CAC6;
+    }
+
+    :active {
+        background-color: #41CAC6;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        transform: translateY(8px);
+    }
+}
